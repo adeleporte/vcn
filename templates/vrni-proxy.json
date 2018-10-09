@@ -1,0 +1,27 @@
+{
+    "Annotation": "VMware vRealize Network Insight Proxy VM",
+    "Deployment": "medium",
+    "DiskProvisioning": "thin",
+    "IPAllocationPolicy": "fixedPolicy",
+    "IPProtocol": "IPv4",
+    "InjectOvfEnv": false,
+    "Name": "vRNI-Proxy",
+    "NetworkMapping": [
+        {
+            "Name": "VM Network",
+            "Network": "VM Network"
+        }
+    ],
+    "PowerOn": true,
+    "PropertyMapping": [
+        {
+            "Key": "Proxy_Shared_Secret",
+            "Value": "UNJr7MadTbEPMBm5BypfWbVmkuS13nPMuTTH43NuIn2DFsA3cDhzEv14USRKLHkqPgwgpPLc/LQfwglLH/67orcBOlO0SW4zcPU9H87lXwCLH00gVopv8HdPbohL8TijSbS0fk3pNlITGDO6Qg88WoOpjdZLpMb/q6RG/5JZL6hJaLlyz0z1/gda/NHd0/HQhP9OJkzuzRF6LGbRrUhF6kZqyJr1bSZ3Z9uwUSIjy80QU2SgYf8oSTcG7UfkL5GbSiUkMiSVIFrHa85c/Ja9N7TJeIDWug2KDDdBgAqwkvAzzbW5KABDg3u88NdQ+WHFaV/1WLs+x40DZsLlUmOIVg=="
+        },
+        {
+            "Key": "App_Init",
+            "Value": "Manually configure the appliance using VM console."
+        }
+    ],
+    "WaitForIP": false
+}

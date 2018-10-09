@@ -1,0 +1,23 @@
+{
+    "Annotation": "VMware vRealize Network Insight Platform VM",
+    "Deployment": "medium",
+    "DiskProvisioning": "thin",
+    "IPAllocationPolicy": "fixedPolicy",
+    "IPProtocol": "IPv4",
+    "InjectOvfEnv": false,
+    "Name": "vRNI-Platform",
+    "NetworkMapping": [
+        {
+            "Name": "VM Network",
+            "Network": "VM Network"
+        }
+    ],
+    "PowerOn": true,
+    "PropertyMapping": [
+        {
+            "Key": "App_Init",
+            "Value": "Manually configure the appliance using VM console."
+        }
+    ],
+    "WaitForIP": false
+}

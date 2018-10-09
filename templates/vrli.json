@@ -1,0 +1,59 @@
+{
+    "Annotation": "VMware vRealize Log Insight",
+    "Deployment": "small",
+    "DiskProvisioning": "thin",
+    "IPAllocationPolicy": "fixedPolicy",
+    "IPProtocol": "IPv4",
+    "InjectOvfEnv": false,
+    "Name": "vRLI",
+    "NetworkMapping": [
+        {
+            "Name": "Network 1",
+            "Network": "VM Network"
+        }
+    ],
+    "PowerOn": true,
+    "PropertyMapping": [
+        {
+            "Key": "vami.hostname.VMware_vCenter_Log_Insight",
+            "Value": "vrli.cpod-vcn.shwrfr.com"
+        },
+        {
+            "Key": "vami.ip0.VMware_vCenter_Log_Insight",
+            "Value": "172.18.28.9"
+        },
+        {
+            "Key": "vami.netmask0.VMware_vCenter_Log_Insight",
+            "Value": "255.255.255.0"
+        },
+        {
+            "Key": "vami.gateway.VMware_vCenter_Log_Insight",
+            "Value": "172.18.28.1"
+        },
+        {
+            "Key": "vami.DNS.VMware_vCenter_Log_Insight",
+            "Value": "172.18.28.1"
+        },
+        {
+            "Key": "vami.searchpath.VMware_vCenter_Log_Insight",
+            "Value": "cpod-vcn.shwrfr.com"
+        },
+        {
+            "Key": "vami.domain.VMware_vCenter_Log_Insight",
+            "Value": "cpod-vcn.shwrfr.com"
+        },
+        {
+            "Key": "vami.preferipv6.VMware_vCenter_Log_Insight",
+            "Value": "False"
+        },
+        {
+            "Key": "vm.rootpw",
+            "Value": "VMware1!"
+        },
+        {
+            "Key": "vm.sshkey",
+            "Value": ""
+        }
+    ],
+    "WaitForIP": false
+}
