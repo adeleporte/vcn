@@ -1,0 +1,50 @@
+{
+    "Annotation": "Ops Manager for Pivotal Cloud Foundry\ninstalls and manages PCF products and services.",
+    "DiskProvisioning": "thin",
+    "IPAllocationPolicy": "fixedPolicy",
+    "IPProtocol": "IPv4",
+    "InjectOvfEnv": false,
+    "Name": "PCF",
+    "NetworkMapping": [
+        {
+            "Name": "Network 1",
+            "Network": "VM Network"
+        }
+    ],
+    "PowerOn": true,
+    "PropertyMapping": [
+        {
+            "Key": "ip0",
+            "Value": "172.18.28.32"
+        },
+        {
+            "Key": "netmask0",
+            "Value": "255.255.255.0"
+        },
+        {
+            "Key": "gateway",
+            "Value": "172.18.28.1"
+        },
+        {
+            "Key": "DNS",
+            "Value": "172.18.28.1"
+        },
+        {
+            "Key": "ntp_servers",
+            "Value": "172.18.28.1"
+        },
+        {
+            "Key": "admin_password",
+            "Value": "VMware1!"
+        },
+        {
+            "Key": "public_ssh_key",
+            "Value": ""
+        },
+        {
+            "Key": "custom_hostname",
+            "Value": "pcf.cpod-vcn.shwrfr.com"
+        }
+    ],
+    "WaitForIP": false
+}
